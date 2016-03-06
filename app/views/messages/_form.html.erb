@@ -27,7 +27,7 @@
     <div class="form-group">
       <label class= "col-sm-1 control-label" for="age">年齢:</label>
       <div class="col-sm-2">
-      <%= f.number_field :age, id:"age", class:"form-control", placeholder:"age is here" %>
+      <%= f.number_field_tag  :age,  min: 1,  id:"age", class:"form-control", placeholder:"age is here" %>
       </div>
     </div>
   </div>
